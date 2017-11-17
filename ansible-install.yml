@@ -1,0 +1,7 @@
+---
+- hosts: "{{ host_env }}"
+  roles: 
+    - common
+    - install_ansible
+  become: true
+  become_user: root
